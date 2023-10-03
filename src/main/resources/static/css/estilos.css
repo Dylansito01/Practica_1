@@ -1,0 +1,159 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+
+
+
+nav {
+    background-color: #333; 
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+#barra-navegacion {
+    background-color: #333; 
+    height: 50px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#nombre-tienda {
+    font-size: 36px; 
+    font-weight: bold;
+    color: white;
+    margin-left: 10px; 
+}
+
+
+footer {
+    position: fixed;
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 20px;
+    left: 0%;
+   bottom: 0;
+    width: 100%;
+}
+
+.producto {
+    display: inline-block;
+    margin: 10px; 
+    text-align: center; 
+}
+
+.producto-imagen.producto-1 {
+    width: 200px; 
+    height: 220px;
+}
+
+.producto-imagen.producto-2 {
+    width: 200px;
+    height: 220px; 
+}
+
+.producto-imagen.producto-3 {
+    width: 200px; 
+    height: 220px;
+}
+
+.producto-imagen.producto-4 {
+    width: 200px; 
+    height: 220px; 
+}
+
+.categorias {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.categoria-imagen {
+    width: 300px; 
+    height: auto;
+}
+
+.categoria-nombre {
+    color: #fff; 
+}
+
+.pagina-de-inicio {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/823/625/non_2x/fashion-runway-girls-flat-color-illustration-models-demonstrate-new-trends-clothes-and-accessories-new-collection-catwalk-females-isolated-cartoon-character-on-white-background-vector.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    color: white; 
+    text-align: center; 
+    font-size: 24px;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
