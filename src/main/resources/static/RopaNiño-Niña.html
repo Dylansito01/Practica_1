@@ -3,6 +3,7 @@
         <title>Catálogo - Tienda Isa</title>
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
         <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     </head>
     <body>
@@ -14,8 +15,9 @@
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="catalogo.html">Catálogo</a></li>
-                    <li><a href="ropa.html">Ropa Niño/Niña</a></li>
+                    <li><a href="cupon.html">Cupones</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
                 </ul>
             </nav>
         </header>
@@ -25,27 +27,42 @@
                 <div class="producto">
                     <img class="producto-imagen producto-1" src="https://m.media-amazon.com/images/I/51PnGkGDsAL._AC_SY580_.jpg" alt="Producto 1">
                     <p>Conjunto de dinosaurio para niño</p>
+                    <p>₡6000</p>
+                    <button class="agregar-al-carrito" data-nombre="Conjunto de dinosaurio para niño" data-precio="6000">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
                 <div class="producto">
                     <img class="producto-imagen producto-2" src="https://siman.vtexassets.com/arquivos/ids/4189372-500-auto?v=638181447290130000&width=500&height=auto&aspect=true" alt="Producto 2">
                     <p>Vestido de flores para niñas</p>
+                    <p>₡5000</p>
+                    <button class="agregar-al-carrito" data-nombre="Vestido de flores para niñas" data-precio="5000">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
                 <div class="producto">
                     <img class="producto-imagen producto-3" src="https://m.media-amazon.com/images/I/71FQRsDooqL._AC_UY1000_.jpg" alt="Producto 3">
                     <p>Suéter rosada para niñas </p>
+                    <p>₡5000</p>
+                    <button class="agregar-al-carrito" data-nombre="Suéter rosada para niñas" data-precio="5000">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
                 <div class="producto">
                     <img class="producto-imagen producto-4" src="https://www.mercadosantaana.com/pub/media/catalog/product/cache/ca3ea98566fd87b3fcbcc859133d6a43/p/i/pijama_ni_o_1_.jpg" alt="Producto 4">
                     <p>Pijama de Mickey Mouse para niño</p>
+                    <p>₡6000</p>
+                    <button class="agregar-al-carrito" data-nombre="Pijama de Mickey Mouse para niño" data-precio="6000">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
 
             </section>
-
-
         </main>
         <footer>
             Derechos Reservados Tienda Isa 2023 &COPY;
         </footer>
+        <script src="carrito.js"></script>
     </body>
 </html>
 

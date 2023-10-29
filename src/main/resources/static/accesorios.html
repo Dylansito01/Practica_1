@@ -3,6 +3,7 @@
         <title>Catálogo - Tienda Isa</title>
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
         <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     </head>
     <body>
@@ -14,8 +15,9 @@
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="catalogo.html">Catálogo</a></li>
-                    <li><a href="ropa.html">Ropa Niño/Niña</a></li>
+                    <li><a href="cupon.html">Cupones</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
                 </ul>
             </nav>
         </header>
@@ -25,18 +27,34 @@
                 <div class="producto">
                     <img class="producto-imagen producto-2" src="https://magazincr.com/image/cache/catalog/magazincr/bolsos/bolsos/7/ncr-com-image-BOL00163-1-550x550.jpg" alt="Producto 2">
                     <p>Bolso color café con negro para mujer</p>
+                    <p><del>₡8000</del> ₡1200 </p>
+                    <button class="agregar-al-carrito" data-nombre="Bolso color café con negro para mujer" data-precio="1200">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
                 <div class="producto">
                     <img class="producto-imagen producto-4" src="https://tottocr.vteximg.com.br/arquivos/ids/198314-292-292/MA02RTG001-21200-N01_1.jpg?v=637727715732100000" alt="Producto 4">
                     <p>Bolso de mano para hombre</p>
+                    <p><del>₡7000</del> ₡1050 </p>
+                    <button class="agregar-al-carrito" data-nombre="Bolso de mano para hombre" data-precio="1050">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
                 <div class="producto">
                     <img class="producto-imagen producto-3" src="https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/15008oxiniv/alloycolour/yellow/accent/black/bead/cabochon-Onyx.jpg" alt="Producto 3">
                     <p>Pulsera negra para hombre </p>
+                    <p><del>₡3000</del> ₡450 </p>
+                    <button class="agregar-al-carrito" data-nombre="Pulsera negra para hombre" data-precio="450">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
                 <div class="producto">
                     <img class="producto-imagen producto-4" src="https://markacr.com/online/wp-content/uploads/2021/04/TW2U05500.jpg" alt="Producto 4">
                     <p>Reloj de acero inoxidable color piel para mujer</p>
+                    <p><del>₡6000</del> ₡900 </p>
+                    <button class="agregar-al-carrito" data-nombre="Reloj de acero inoxidable color piel para mujer" data-precio="900">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
 
             </section>
@@ -46,6 +64,7 @@
         <footer>
             Derechos Reservados Tienda Isa 2023 &COPY;
         </footer>
+        <script src="carrito.js"></script>
     </body>
 </html>
 

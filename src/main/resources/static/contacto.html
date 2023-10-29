@@ -3,6 +3,18 @@
     <title>Contacto - Tienda Isa</title>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <meta charset="UTF-8">
+    
+    <script>
+function enviarFormulario() {
+
+    setTimeout(function() {
+        var mensajeEnvio = document.getElementById("mensaje-envio");
+        mensajeEnvio.innerHTML = "¡Formulario enviado con éxito!";
+        mensajeEnvio.style.color = "green";
+    }, 1000); 
+}
+</script>
+
 </head>
 <body>
     <header>
@@ -13,8 +25,9 @@
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="catalogo.html">Catálogo</a></li>
-                    <li><a href="ropa.html">Ropa Niño/Niña</a></li>
+                    <li><a href="ropa.html">Cupones</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
                 </ul>
             </nav>
     </header>
@@ -22,7 +35,7 @@
         <section>
             <h1>Contacto</h1>
             <p>¡Contáctanos para cualquier consulta o solicitud!</p>
-            <form action="procesar.php" method="post">
+          <form action="javascript:void(0);" onsubmit="enviarFormulario();">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
 
@@ -33,6 +46,7 @@
                 <textarea id="mensaje" name="mensaje" required></textarea>
 
                 <input type="submit" value="Enviar">
+                <div id="mensaje-envio"></div>
             </form>
         </section>
     </main>

@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #B695C0;
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -24,6 +24,17 @@ nav a {
     padding: 10px 15px; 
 }
 
+nav ac {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+nav a#carrito {
+    font-weight: bold;
+    color: #ff6600; 
+}
+
 nav ul {
     list-style: none;
     display: flex; 
@@ -34,7 +45,7 @@ nav li {
     margin: 0 10px;
 }
 #barra-navegacion {
-    background-color: #333; 
+    background-color: #e8c39e;
     height: 50px; 
     display: flex;
     justify-content: space-between; 
@@ -151,6 +162,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+
+
 
 
 

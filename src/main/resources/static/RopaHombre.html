@@ -1,21 +1,25 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Catálogo - Tienda Isa</title>
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
         <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
     </head>
     <body>
         <header>
-    <nav id="barra-navegacion">
-        <a href="index.html">
-            <h1 id="nombre-tienda">Tienda Isa</h1>
-        </a>
+            <nav id="barra-navegacion">
+                <a href="index.html">
+                    <h1 id="nombre-tienda">Tienda Isa</h1>
+                </a>
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="catalogo.html">Catálogo</a></li>
-                    <li><a href="ropa.html">Ropa Niño/Niña</a></li>
+                    <li><a href="cupon.html">Cupones</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
                 </ul>
             </nav>
         </header>
@@ -25,18 +29,35 @@
                 <div class="producto">
                     <img class="producto-imagen producto-1" src="https://siman.vtexassets.com/arquivos/ids/3919655/104050394-1.jpg?v=638115583051200000" alt="Producto 1">
                     <p>Camisa formal manga blanca para hombre</p>
+                    <p><del>₡5000</del> ₡1000 </p>
+                    <button class="agregar-al-carrito" data-nombre="Camisa formal manga blanca para hombre" data-precio="1000">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
+
                 <div class="producto">
-                    <img class="producto-imagen producto-3" src="https://m.media-amazon.com/images/I/717GIAkG1uL._AC_UF894,1000_QL80_.jpg" alt="Producto 3">
+                    <img class="producto-imagen producto-2" src="https://m.media-amazon.com/images/I/717GIAkG1uL._AC_UF894,1000_QL80_.jpg" alt="Producto 3">
                     <p>Suéter color beige para hombre </p>
+                    <p><del>₡6000</del> ₡1200 </p>
+                   <button class="agregar-al-carrito" data-nombre="Suéter color beige para hombre" data-precio="1200">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
                 <div class="producto">
                     <img class="producto-imagen producto-3" src="https://siman.vtexassets.com/arquivos/ids/3758983/103891641_1.jpg?v=638064817751800000" alt="Producto 3">
                     <p>Pantalón jeans celeste para hombre  </p>
+                    <p><del>₡8000</del> ₡1600 </p>
+                    <button class="agregar-al-carrito" data-nombre="Pantalón jeans celeste para hombre" data-precio="1600">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
                 <div class="producto">
                     <img class="producto-imagen producto-4" src="https://m.media-amazon.com/images/I/81CDCJntUOL._AC_UL1500_.jpg" alt="Producto 4">
                     <p>Gorro de invierno color rojo para hombre</p>
+                    <p><del>₡2500</del> ₡500 </p>
+                    <button class="agregar-al-carrito" data-nombre="Gorro de invierno color rojo para hombre" data-precio="500">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>                    
                 </div>
 
             </section>
@@ -46,6 +67,7 @@
         <footer>
             Derechos Reservados Tienda Isa 2023 &COPY;
         </footer>
+        <script src="carrito.js"></script>
     </body>
 </html>
 

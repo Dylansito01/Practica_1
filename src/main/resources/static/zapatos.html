@@ -3,7 +3,7 @@
         <title>Catálogo - Tienda Isa</title>
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
         <meta charset="UTF-8">
-
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
         <header>
@@ -14,8 +14,9 @@
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="catalogo.html">Catálogo</a></li>
-                    <li><a href="ropa.html">Ropa Niño/Niña</a></li>
+                    <li><a href="cupon.html">Cupones</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
                 </ul>
             </nav>
         </header>
@@ -25,27 +26,41 @@
                 <div class="producto">
                     <img class="producto-imagen producto-1" src="https://caterpillarcr.com/cdn/shop/products/BOTACLOY-ROPE-min_e845013b-90ae-4bdd-80fa-2b81ba34a4d7_1024x1024.jpg?v=1695345118" alt="Producto 1">
                     <p>Zapato media bota color café para hombre</p>
+                    <p>₡10000</p>
+                    <button class="agregar-al-carrito" data-nombre="Zapato media bota color café para hombre" data-precio="10000">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
                 <div class="producto">
                     <img class="producto-imagen producto-2" src="https://assets.adidas.com/images/w_450,f_auto,q_auto/ac155af3c0ea426fa200ae890180cb98_9366/GW9196_00_plp_standard.jpg" alt="Producto 2">
                     <p>Tenis negro con blanco adidas para hombre</p>
+                    <p>₡15000</p>
+                    <button class="agregar-al-carrito" data-nombre="Tenis negro con blanco adidas para hombre" data-precio="15000">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>                    
                 </div>
                 <div class="producto">
                     <img class="producto-imagen producto-3" src="https://ewr1.vultrobjects.com/aldo/images/stessy2.0_beige_270-002-033_main_sq_nt_4800x4800.jpg" alt="Producto 3">
                     <p>Tacones formales color piel para mujer </p>
+                    <p>₡12500</p>
+                    <button class="agregar-al-carrito" data-nombre="Tacones formales color piel para mujer" data-precio="12500">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
                 <div class="producto">
                     <img class="producto-imagen producto-4" src="https://magazincr.com/image/cache/catalog/magazincr/bolsos/zapatos/zap00107/1-550x550w.jpg" alt="Producto 4">
                     <p>Zapatos deportivos negros nike para mujer</p>
+                    <p>₡15000</p>
+                    <button class="agregar-al-carrito" data-nombre="Zapatos deportivos negros nike para mujer" data-precio="15000">
+                        <i class="fas fa-shopping-cart"></i> Agregar al carrito
+                    </button>
                 </div>
-
             </section>
-
-
         </main>
         <footer>
             Derechos Reservados Tienda Isa 2023 &COPY;
         </footer>
+        <script src="carrito.js"></script>
     </body>
 </html>
 
